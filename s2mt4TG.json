@@ -1,0 +1,31 @@
+{
+  "name": "Simplified Chinese to Mainland Traditional Chinese",
+  "segmentation": {
+    "type": "mmseg",
+    "dict": {
+      "type": "text",
+      "file": "Result_Phrases.txt"
+    }
+  },
+  "conversion_chain": [
+    {
+      "dict": {
+        "type": "group",
+        "dicts": [
+          {
+            "type": "text",
+            "file": "Result_Phrases.txt"
+          },
+          {
+            "type": "text",
+            "file": "SMT/SMTCharacters.txt"
+          },
+          {
+            "type": "text",
+            "file": "SMT/SMTCharacters.txt"
+          }
+        ]
+      }
+    }
+  ]
+}

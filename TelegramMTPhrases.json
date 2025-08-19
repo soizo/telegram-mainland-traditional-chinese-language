@@ -1,0 +1,161 @@
+[
+  {
+    "android_zh-hans_v\\d+\\.xml": {
+      "Type": "xml",
+      "Replacements": [
+        {
+          "Target": ["LanguageName", "ContinueOnThisLanguage", "LanguageAlert"],
+          "pattern": "简体中文",
+          "substitution": "繁體中文(大陸)"
+        },
+        {
+          "Target": ["LanguageNameInEnglish"],
+          "pattern": "^.*$",
+          "substitution": "Traditional Chinese (Mainland)"
+        },
+        {
+          "Target": ["LanguageCode"],
+          "pattern": "^.*$",
+          "substitution": "chinese-traditional-mainland"
+        },
+        {
+          "Target": [
+            "LanguageAlert",
+            "LanguageCustomAlert",
+            "LanguageSame",
+            "LanguageUnknownCustomAlert",
+            "SentSmsCode",
+            "SentCallCode",
+            "SentCallOnly",
+            "RevokeLinkAlert",
+            "RevokeLinkAlertChannel",
+            "SentAppCodeWithPhone"
+          ],
+          "pattern": "（\\*\\*%1\\$s\\*\\*）",
+          "substitution": "「**%1$s**」"
+        }
+      ]
+    }
+  },
+  {
+    "android_x_zh-hans_v\\d+\\.xml": {
+      "Type": "xml",
+      "Replacements": [
+        {
+          "Target": [
+            "language_continueInLanguage",
+            "language_name",
+            "language_continueInLanguagePopupText",
+            "language_appliedLanguage"
+          ],
+          "pattern": "简体中文",
+          "substitution": "繁體中文(大陸)"
+        }
+      ]
+    }
+  },
+  {
+    "ios_zh-hans_v\\d+\\.strings": {
+      "Type": "strings",
+      "Replacements": [
+        {
+          "Target": ["Localization.LanguageName"],
+          "pattern": "简体中文",
+          "substitution": "繁體中文(大陸)"
+        },
+        {
+          "Target": ["Login.ContinueWithLocalization"],
+          "pattern": "中文（简体）",
+          "substitution": "繁體中文(大陸)"
+        },
+        {
+          "Target": [
+            "ApplyLanguage.ChangeLanguageOfficialText",
+            "ApplyLanguage.ChangeLanguageUnofficialText",
+            "ApplyLanguage.UnsufficientDataText",
+            "ApplyLanguage.ChangeLanguageAlreadyActive"
+          ],
+          "pattern": "（\\*?\\*?%1\\$\\@\\*?\\*?）",
+          "substitution": "「**%1$@**」"
+        }
+      ]
+    }
+  },
+  {
+    "macos_zh-hans_v\\d+\\.strings": {
+      "Type": "strings",
+      "Replacements": [
+        {
+          "Target": [
+            "Login.ContinueOnLanguage",
+            "AccountSettings.CurrentLanguage"
+          ],
+          "pattern": "简体中文",
+          "substitution": "繁體中文(大陸)"
+        },
+        {
+          "Target": ["ApplyLanguage.UnsufficientDataText"],
+          "pattern": "（\\%\\@）",
+          "substitution": "「%@」"
+        },
+        {
+          "Target": ["ApplyLanguage.ChangeLanguageUnofficialText1"],
+          "pattern": "（\\%\\@）",
+          "substitution": "「%@」"
+        }
+      ]
+    }
+  },
+  {
+    "tdesktop_zh-hans_v\\d+\\.strings": {
+      "Type": "strings",
+      "Replacements": [
+        {
+          "Target": ["lng_language_name", "lng_switch_to_this"],
+          "pattern": "简体中文",
+          "substitution": "繁體中文(大陸)"
+        },
+        {
+          "Target": ["lng_language_switch_about_official"],
+          "pattern": " ?\\(\\{lang_name\\}\\)",
+          "substitution": "「{lang_name}」"
+        }
+      ]
+    }
+  },
+  {
+    "unigram_zh-hans_v\\d+\\.xml": {
+      "Type": "xml",
+      "Replacements": [
+        {
+          "Target": ["LanguageName"],
+          "pattern": "简体中文",
+          "substitution": "繁體中文(大陸)"
+        },
+        {
+          "Target": [
+            "LanguageAlert",
+            "LanguageCustomAlert",
+            "LanguageSame",
+            "LanguageUnknownCustomAlert"
+          ],
+          "pattern": "（\\*?\\*?\\{0\\}\\*?\\*?）",
+          "substitution": "「**{0}**」"
+        }
+      ]
+    }
+  },
+  { "weba_zh-hans_v\\d+\\.strings": {} },
+  {
+    "webk_zh-hans_v\\d+\\.strings": {
+      "Type": "strings",
+      "Replacements": [
+        {
+          "Target": ["LanguageName", "Login.ContinueOnLanguage"],
+          "pattern": "简体中文",
+          "substitution": "繁體中文(大陸)"
+        }
+      ]
+    }
+  }
+]
