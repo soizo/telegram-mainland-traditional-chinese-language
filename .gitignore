@@ -1,5 +1,5 @@
 /input/
 /output/
 /舊/
-/Result_.+.txt
+/Result_*.txt
 .DS_Store
