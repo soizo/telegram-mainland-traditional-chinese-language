@@ -19,10 +19,6 @@
           {
             "type": "text",
             "file": "SMT/SMTCharacters.txt"
-          },
-          {
-            "type": "text",
-            "file": "SMT/SMTCharacters.txt"
           }
         ]
       }
