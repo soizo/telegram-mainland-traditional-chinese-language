@@ -1,3 +1,5 @@
+## ⚠️ Moved to [soizo/telegram-zh-Hant-CN](https://github.com/soizo/telegram-zh-Hant-CN)
+
 # Telegram Mainland Traditional Chinese Language
 電報大陸繁體中文語言
 
